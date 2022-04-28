@@ -12,6 +12,10 @@ How to Use:
 4. Load the folder as an unpacked extension
 5. Whenever you will be on the https://tinder.com/app/likes-you page, the pictures of people that liked your profile will not be blured anymore
 
-## Sample
+## Preview
 
-![Preview](preview.png)
+![Preview](https://github.com/Aicirou/TindrUnblr/blob/main/img/preview.png)
+
+## License
+
+Released under the [MIT license](https://github.com/Aicirou/TindrUnblr/blob/main/LICENSE)
