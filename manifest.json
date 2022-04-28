@@ -4,21 +4,17 @@
   "description": "Unblur Tinder likes!!",
   "version": "1.0.0",
   "manifest_version": 2,
+  
   "background": {
     "scripts":["background.js"]
   },
-  "icons": { 
-    "256": "tindr256.png"
-  },
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
+      "matches": ["http://tinder.com/app/likes-you", "https://tinder.com/app/likes-you"],
       "js": ["contentscript.js"]
     }
   ],
   "permissions": [
-    "tabs",
-  	"http://tinder.com/app/likes-you",
-    "https://tinder.com/app/likes-you"
+    "tabs"
   ]
 }
